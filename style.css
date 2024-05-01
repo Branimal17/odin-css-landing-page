@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.header-container {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px 250px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9FAF8;
+    font-weight: bold;
+}
+
+.header-links ul {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.top-section {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 20px 250px;
+
+
+}
+
+.text-side {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+button {
+    
+    background-color: #3882F6;
+    font-weight: bold;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.top-signup-button {
+    margin-top: 30px;
+}
+
+.image-side {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    color: #E5E7Eb;
+}
+
+
+.image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+}
+
+.image-container2 {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+
+.image-container2 .image-wrapper  {
+    max-width: 200px;
+}
+.image-container2 .image-wrapper img {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quote-container {
+    background-color: #E5E7Eb;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 500px;
+
+}
+
+.signup-container {
+    flex: 1;
+    padding: 100px 175px;
+}
+.signup-container-background {
+    display: flex;
+    background-color: #3882F6;
+    color: #f9FAF8;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.footer-container {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
